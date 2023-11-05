@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Header from '../component/Header';
 import '../css/bolg.css'
 import UseState02 from '../component/UseState02';
+import Fotter from '../component/fotter'
 
 const BlogPage = () => {
     let head = useRef()
@@ -21,6 +22,7 @@ const BlogPage = () => {
                 <h1>UseState 02</h1>
                 <UseState02/>
             </div>
+            <Fotter/>
         </div>
     );
 };
