@@ -3,6 +3,8 @@ import NavMenu from '../component/NavMenu';
 import Header from '../component/Header';
 import '../css/homepage.css'
 import Form from '../component/Form';
+import Fotter from '../component/fotter';
+
 
 const HomePage = () => {
     let fName = useRef()
@@ -12,6 +14,7 @@ const HomePage = () => {
         let ln = lName.value;
         alert(fn+" "+ln)
     }
+
     return (
         <div>
             <Header/>
@@ -25,6 +28,7 @@ const HomePage = () => {
                 <h1>UseState 01</h1>
                 <Form/>
             </div>
+            <Fotter/>
         </div>
     );
 };
