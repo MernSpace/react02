@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import Header from '../component/Header'; 
 import UseEffect from '../component/UseEffect';
+import Fotter from '../component/fotter'
  
 
 const ContactPage = () => {
@@ -21,6 +22,7 @@ const ContactPage = () => {
             <h1>UseEffect IIF</h1>
             <UseEffect/>
            </div>
+           <Fotter/>
         </div>
     );
 };
