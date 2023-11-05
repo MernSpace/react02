@@ -1,0 +1,35 @@
+.contact{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+.form{
+    text-align: center;
+}
+.container input{
+    height: 20px;
+}
+.container select{
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container button{
+    margin-top: 10px;
+}
+
+.useState{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.obj{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    color:rebeccapurple;
+   cursor: pointer;
+    font-weight: 700;
+}
+.btn button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 9px;
+    color: rebeccapurple;
+    cursor: pointer;
+}

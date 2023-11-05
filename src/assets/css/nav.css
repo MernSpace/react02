@@ -1,0 +1,19 @@
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-decoration: none;
+ }
+ li{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+ }
+.active-item {
+    color: red;
+  }
+
+
+ul li a{
+    text-decoration: none;
+}
